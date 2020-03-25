@@ -28,5 +28,17 @@
 			]
 		}
 	},
+	"punctuation": {
+		"patterns": [
+			{
+				"name": "punctuation.separator.colon.blocktext",
+				"match": ":"
+			},
+			{
+				"name": "punctuation.separator.element.blocktext",
+				"match": ","
+			}
+		]
+	},
 	"scopeName": "source.bt"
 }
