@@ -1,0 +1,25 @@
+{
+    "name": "block-text",
+    "displayName": "Block Text",
+    "description": "syntax highlighting for LearnBlock block text code files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "blocktext",
+            "aliases": ["Block Text", "blocktext"],
+            "extensions": [".bt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "blocktext",
+            "scopeName": "source.bt",
+            "path": "./syntaxes/blocktext.tmLanguage.json"
+        }]
+    }
+}
